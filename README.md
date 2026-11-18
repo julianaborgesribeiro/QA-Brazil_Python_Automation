@@ -37,6 +37,6 @@ B) Estruturação do projeto
 - Pytest;
 - Git;
 - GitHub;
-- Selenium (para a etapa seguinte).
+- Selenium.
 
 6. Aprendizados: Prática em configuração de ambiente Python, organização de código, utilização de constantes, modularização, estruturação de funções de teste e preparação de projetos para automação.
