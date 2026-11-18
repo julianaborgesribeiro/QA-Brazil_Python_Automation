@@ -1,42 +1,38 @@
-Projeto – Automação com Python
+Projetos – Automação de Testes com Python e Selenium
 
-1. Sobre o projeto: Projeto desenvolvido durante a formação em QA pela TripleTen, com foco na preparação da estrutura de automação de testes do aplicativo Urban Routes utilizando Python.
+1. Sobre o projeto: Projetos desenvolvidos durante a formação em QA pela TripleTen, com foco na preparação e implementação da automação de testes do aplicativo Urban Routes, utilizando Python e Selenium WebDriver.
 
-2. Objetivo: Configurar o ambiente de desenvolvimento, organizar os dados de teste e preparar as funções que serão utilizadas na automação dos testes com Selenium no Sprint 8.
+2. Objetivo: Preparar a estrutura do projeto e desenvolver testes automatizados de ponta a ponta para validar o processo de solicitação de táxi, utilizando o padrão Page Object Model (POM).
 
 3. Atividades realizadas
 
-A) Configuração do ambiente
+- Configuração do ambiente virtual Python;
+- Organização dos dados de teste em constantes;
+- Criação do arquivo auxiliar helpers.py;
+- Estruturação de funções compatíveis com Pytest;
+- Implementação da verificação de disponibilidade do servidor;
+- Preparação da estrutura para automação com Selenium.
+- Implementação do padrão Page Object Model (POM);
+- Criação de localizadores com diferentes estratégias do Selenium;
+- Automação do preenchimento dos endereços de origem e destino;
+- Seleção da tarifa Comfort;
+- Preenchimento e confirmação do número de telefone com código SMS;
+- Cadastro de cartão de crédito;
+- Inclusão de comentário para o motorista;
+- Seleção de cobertor e lenços;
+- Adição de dois sorvetes ao pedido;
+- Solicitação do táxi e validação da janela de busca de carros;
+- Execução dos testes automatizados com Pytest.
 
-- Clonagem do repositório do GitHub;
-- Criação e ativação de ambiente virtual Python;
-- Instalação das dependências com pip;
-- Configuração do arquivo .gitignore.
-
-B) Estruturação do projeto
-
-- Criação do arquivo helpers.py com funções auxiliares;
-- Organização dos dados de teste em constantes no arquivo data.py;
-- Importação dos módulos data e helpers;
-- Criação de oito funções de teste compatíveis com Pytest;
-- Implementação do método setup_class para verificar a disponibilidade do servidor Urban Routes;
-- Preparação de um laço for para adicionar dois sorvetes.
-
-4. Resultados
-
-- Ambiente virtual configurado;
-- Arquivos auxiliares e de dados estruturados;
-- Oito funções de teste preparadas;
-- Verificação de disponibilidade do servidor implementada;
-- Estrutura preparada para receber os códigos de automação do Sprint 8.
+4. Resultados: Preparação da estrutura de automação e desenvolvimento de testes automatizados para as principais etapas do processo de solicitação de táxi no Urban Routes.
 
 5. Ferramentas e tecnologias
 
 - Python;
-- PyCharm;
+- Selenium WebDriver;
 - Pytest;
-- Git;
-- GitHub;
-- Selenium.
+- Page Object Model (POM);
+- PyCharm;
+- Git e GitHub.
 
-6. Aprendizados: Prática em configuração de ambiente Python, organização de código, utilização de constantes, modularização, estruturação de funções de teste e preparação de projetos para automação.
+5. Aprendizados: Prática em automação de testes web, organização e modularização de código, utilização de localizadores, aplicação do padrão POM, interação com elementos da interface e execução de testes automatizados.
